@@ -1,0 +1,19 @@
+- title: Főoldal
+  url: "/"
+  side: left
+
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Keresés"
+  url: "/search/"
+  side: right
+
+- title: "Kapcsolat"
+  url: "/contact/"
+  side: right
