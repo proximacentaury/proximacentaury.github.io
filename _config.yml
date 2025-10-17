@@ -40,7 +40,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 #
 # Módosítás: Abszolút URL helyett használd a baseurl/images/ kombinációt.
 # urlimg: 'https://phlow.github.io/feeling-responsive/images/' # Ezt töröld/kommenteld
-urlimg: "/images/2 # Ezt használd!
+urlimg: "/images/" # Ezt használd!
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
