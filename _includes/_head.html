@@ -9,7 +9,12 @@
 #
 {% endcomment %}{% capture ignore %}
 
-{% assign url = site.baseurl | prepend: site.url %}
+{% comment %} CSERE: A GitHub Build hiba miatt a prepend filtert direkt kiírjuk {% endcomment %}
+{% if site.baseurl %}
+  {% assign url = site.url | append: site.baseurl %}
+{% else %}
+  {% assign url = site.url %}
+{% endif %}
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
 {% assign description = description | strip_html | escape | strip %}
