@@ -39,8 +39,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 # Módosítás: Abszolút URL helyett használd a baseurl/images/ kombinációt.
-# urlimg: 'https://phlow.github.io/feeling-responsive/images/' # Ezt töröld/kommenteld
-urlimg: "/images/" # Ezt használd!
+urlimg: "/images/"
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
